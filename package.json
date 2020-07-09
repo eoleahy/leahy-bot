@@ -1,0 +1,24 @@
+{
+  "name": "leahy-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for fun :)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo test",
+    "start": "node app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoleahy/leahy-bot.git"
+  },
+  "author": "Eoin Leahy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eoleahy/leahy-bot/issues"
+  },
+  "homepage": "https://github.com/eoleahy/leahy-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "eslint": "^7.4.0"
+  }
+}
