@@ -2,7 +2,7 @@
   "name": "leahy-bot",
   "version": "1.0.0",
   "description": "Discord bot for fun :)",
-  "main": "main.js",
+  "main": "app/app.js",
   "scripts": {
     "test": "echo test",
     "start": "node app/app.js"
