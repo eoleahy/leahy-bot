@@ -1,10 +1,11 @@
 'use strict';
+require('dotenv').config();
 
-const { prefix, token } = require('./config.json');
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
+const prefix='!';
 
 client.once('ready', () => {
     console.log('Bot is ready!');
@@ -20,4 +21,4 @@ client.on('message', message => {
     }
 });
 
-client.login(token);
+client.login(process.env.token);
