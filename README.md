@@ -1,2 +1,2 @@
 # leahy-bot
-Discord bot 
+Discord bot for fun
