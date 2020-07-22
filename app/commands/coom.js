@@ -13,7 +13,7 @@ module.exports = {
 
         const connection = await vc.join();
 
-        const dispatcher = connection.play(fs.createReadStream(audio_path), {type: 'ogg/opus', volume: .25});
+        const dispatcher = connection.play(fs.createReadStream(audio_path), {type: 'ogg/opus', volume: .1});
 
         dispatcher.on('finish', () => {
             console.log('Audio is finished');
