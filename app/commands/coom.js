@@ -1,10 +1,8 @@
-const opusscript = require('opusscript');
 const fs = require('fs');
-const Discord = require('discord.js');
 
 module.exports = {
     name: 'coom',
-    description: 'Plays audio',
+    description: 'Cooms IRL',
     async execute(msg){
         const audio_path = './app/src/audio/coomer.ogg';
         let vc = msg.member.voice.channel;
