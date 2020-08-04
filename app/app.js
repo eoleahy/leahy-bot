@@ -16,7 +16,6 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
     console.log('Bot is ready!');
-    //console.log(client.channels);
 });
 client.on('message', message => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;

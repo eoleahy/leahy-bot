@@ -4,9 +4,11 @@ module.exports = {
     args: true,
     usage: '!request <command> <description>',
     execute(msg,args){
+        return msg.reply(`${this.name} is still under construction`);
+        
         if(args.length !== 2){
             return msg.reply(this.usage);
         }
-        return msg.reply(`Request for <${args[0]}> has been created.`);
+        
     }
 }
