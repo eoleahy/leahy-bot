@@ -1,12 +1,13 @@
-const commands = require('../app');
+'use strict';
 
+const commands = require('../app');
 
 module.exports = {
     name: 'commands',
     description: 'Lists all the commands the bot responds to',
     execute(msg){
-        msg_str = 'Command list:\n';
-        list = commands["commands"];
+        let msg_str = 'Command list:\n';
+        let list = commands["commands"];
         list.forEach(element => {
             msg_str += `${element['name']} --- ${element['description']}\n`;
             if(element.usage)

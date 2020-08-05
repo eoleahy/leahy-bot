@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
     name: 'dirtymichael',
     description: 'Michael wins 50 quid',

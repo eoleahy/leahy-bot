@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
     name: 'request',
     description: 'Request a command to be added.',

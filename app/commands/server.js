@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
     name: 'server',
     description: 'Displays basic server info',
